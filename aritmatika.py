@@ -17,7 +17,9 @@ print(selisih)
 perkalian = angka_pertama*angka_kedua 
 print(perkalian)
 
-
+#case 4: pembagian
+pembagian = angka_pertama/angka_kedua
+print(pembagian)
 
 
 
