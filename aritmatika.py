@@ -20,6 +20,9 @@ print(perkalian)
 #case 4: pembagian
 pembagian = angka_pertama/angka_kedua
 print(pembagian)
+#case 5: sisa pembagian
+sisa_bagi = angka_pertama%angka_kedua
+print(sisa_bagi)
 
 
 
