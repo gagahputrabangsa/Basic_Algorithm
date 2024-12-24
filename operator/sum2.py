@@ -6,3 +6,5 @@ while True:
   print(f"{first_num} + {second_num} = {result} ") #formatting result
 
   asking = input ('wanna continue? (Y/N)')
+  if asking == 'N' or 'n':
+    break    
