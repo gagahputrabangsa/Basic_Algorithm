@@ -3,4 +3,6 @@ while True:
   second_num = int(input('enter your second num: '))
   
   result = first_num + second_num
-  print(f"{first_num} + {second_num} = {result} ") #formatting result 
+  print(f"{first_num} + {second_num} = {result} ") #formatting result
+
+  asking = input ('wanna continue? (Y/N)')
