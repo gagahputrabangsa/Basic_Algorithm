@@ -5,6 +5,6 @@ while True:
   result = first_num + second_num
   print(f"{first_num} + {second_num} = {result} ") #formatting result
 
-  asking = input ('wanna continue? (Y/N)')
-  if asking == 'N' or 'n':
+  asking = input ('wanna continue? (Y/N)').lower() #lowercase all the user input
+  if asking == 'n':
     break    
