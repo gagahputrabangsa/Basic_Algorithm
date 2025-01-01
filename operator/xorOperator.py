@@ -26,3 +26,7 @@ if __name__ == "__main__":
     print(f"XOR of {bool1} and {bool2} is: {xor_booleans(bool1, bool2)}")
 
   
+  # Binary String XOR
+    bin1 = "1101"
+    bin2 = "1011"
+    print(f"XOR of binary strings '{bin1}' and '{bin2}' is: {xor_binary_strings(bin1, bin2)}")
