@@ -20,4 +20,9 @@ if __name__ == "__main__":
     print(f"XOR of {num1} and {num2} is: {xor_integers(num1, num2)}")
 
    
+ # Boolean XOR
+    bool1 = True
+    bool2 = False
+    print(f"XOR of {bool1} and {bool2} is: {xor_booleans(bool1, bool2)}")
 
+  
