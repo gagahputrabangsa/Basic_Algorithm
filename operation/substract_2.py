@@ -1,4 +1,4 @@
-
+#this program is to share candy on every person with fair piece
 candy = int(input("How many candy-> "))
 person = int(input("How many person-> "))
 
