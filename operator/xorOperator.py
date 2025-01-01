@@ -13,4 +13,11 @@ def xor_binary_strings(bin1, bin2):
     xor_result = int(bin1, 2) ^ int(bin2, 2)
     return bin(xor_result)[2:].zfill(max(len(bin1), len(bin2)))
 
+# run
+if __name__ == "__main__":
+    num1 = 12  # 1100 in binary
+    num2 = 9   # 1001 in binary
+    print(f"XOR of {num1} and {num2} is: {xor_integers(num1, num2)}")
+
+   
 
