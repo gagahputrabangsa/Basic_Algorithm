@@ -4,3 +4,4 @@ mod = int(input("Enter any modulo-> "))
 
 #modulus is signed as % (percent)
 result = user%mod 
+print(f"{user} Mod {mod} = {result}")
