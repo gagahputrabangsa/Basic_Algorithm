@@ -3,4 +3,8 @@
 num_loop = int(input('enter num of list: '))
 
 for i in range (num_loop):
-  num_sort
+  list = []
+  num_sort = int(input(f'enter num {num_loop} -> '))
+  list
+  num_sort +=1
+  
