@@ -9,5 +9,5 @@ for i in range (num_loop):
   iterate +=1 #use incursive to the iterate var
 
 print('List ->',list) #unsorted or Original list
-print('Reversed List ->',)
+print('Reversed List ->',list[::-1])
   
