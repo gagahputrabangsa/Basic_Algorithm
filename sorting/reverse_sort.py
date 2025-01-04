@@ -1,4 +1,4 @@
-#this program to implement sort list using input user but in reverse
+#this program implements a sorted list using input user but in reverse
 num_loop = int(input('enter num of list: '))
 
 list = [] # define the list outside the loop
@@ -9,7 +9,7 @@ for i in range (num_loop):
   iterate +=1 #use incursive to the iterate var
 
 print('List ->',list) #unsorted or Original list
-#in order to reverse a soted list, we need to sort the list first
-sorted = sorted(list)
+#in order to reverse a sorted list, we need to sort the list first
+sorted = sorted(list) #we'll make a var to store the sorted list
 print('Reversed List ->',sorted[::-1]) #this will reverse the sorted list
   
