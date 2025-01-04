@@ -8,3 +8,6 @@ for i in range (num_loop):
   list.append(num_sort) #append the num to list
   iterate +=1 #use incursive to the iterate var
 
+print('List ->',list) #unsorted or Original list
+
+  
