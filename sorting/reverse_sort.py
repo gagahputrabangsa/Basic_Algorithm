@@ -9,5 +9,7 @@ for i in range (num_loop):
   iterate +=1 #use incursive to the iterate var
 
 print('List ->',list) #unsorted or Original list
-print('Reversed List ->',list[::-1])
+#in order to reverse a soted list, we need to sort the list first
+sorted = sorted(list)
+print('Reversed List ->',sorted[::-1]) #this will reverse the sorted list
   
