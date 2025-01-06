@@ -6,6 +6,9 @@ def insertion_sort(arr):
             arr[j + 1] = arr[j]
             j -= 1
         arr[j + 1] = key
+# Example usage
+arr = [12, 11, 13, 5, 6]
+
 
 
 
