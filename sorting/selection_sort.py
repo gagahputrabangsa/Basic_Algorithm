@@ -9,3 +9,5 @@ def selection_sort(arr):
 
 #Usage
 arr = [64, 25, 12, 22, 11]
+selection_sort(arr)
+print("Array After selection sort:", arr)
