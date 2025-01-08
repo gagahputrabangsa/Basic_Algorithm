@@ -17,3 +17,11 @@ def merge_sort(arr):
                 j += 1
             k += 1
 
+        while i < len(left_half):
+            arr[k] = left_half[i]
+            i += 1
+            k += 1
+
+
+
+        
