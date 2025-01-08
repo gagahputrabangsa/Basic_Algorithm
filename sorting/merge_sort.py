@@ -30,5 +30,7 @@ def merge_sort(arr):
 
 # Usage
 arr = [38, 27, 43, 3, 9, 82, 10]
+merge_sort(arr)
+print("Sorted Arr Using Merge Sort:", arr)
 
         
