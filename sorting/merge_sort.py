@@ -6,5 +6,14 @@ def merge_sort(arr):
 
         merge_sort(left_half)
         merge_sort(right_half)
+        i = j = k = 0
 
-        
+        while i < len(left_half) and j < len(right_half):
+            if left_half[i] < right_half[j]:
+                arr[k] = left_half[i]
+                i += 1
+            else:
+                arr[k] = right_half[j]
+                j += 1
+            k += 1
+
