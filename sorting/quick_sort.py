@@ -10,3 +10,4 @@ def quick_sort(arr):
 #usage
 arr = [10, 7, 8, 9, 1, 5]
 sorted_arr = quick_sort(arr)
+print("Sorted Arr:", sorted_arr)
