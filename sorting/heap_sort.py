@@ -22,4 +22,4 @@ def heap_sort(arr):
 #usage
 arr = [12, 11, 13, 5, 6, 7]
 heap_sort(arr)
-print("Sorted Array:", arr)
+print("Sorted Array using heap sort:", arr)
