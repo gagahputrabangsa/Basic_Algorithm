@@ -20,3 +20,5 @@ def heap_sort(arr):
         arr[i], arr[0] = arr[0], arr[i]
         heapify(arr, i, 0)
 #usage
+arr = [12, 11, 13, 5, 6, 7]
+heap_sort(arr)
