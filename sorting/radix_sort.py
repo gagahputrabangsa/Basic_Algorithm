@@ -19,3 +19,10 @@ def counting_sort_for_radix(arr, exp):
 
     for i in range(n):
         arr[i] = output[i]
+
+def radix_sort(arr):
+    max_val = max(arr)
+    exp = 1
+    while max_val // exp > 0:
+        counting_sort_for_radix(arr, exp)
+        exp *= 10
