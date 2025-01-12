@@ -16,3 +16,6 @@ def counting_sort_for_radix(arr, exp):
         output[count[index] - 1] = arr[i]
         count[index] -= 1
         i -= 1
+
+    for i in range(n):
+        arr[i] = output[i]
