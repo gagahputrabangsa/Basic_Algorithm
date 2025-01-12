@@ -12,3 +12,4 @@ def counting_sort(arr):
 #example usage
 arr = [4, 2, 2, 8, 3, 3, 1]
 sorted_arr = counting_sort(arr)
+print("Sorted Array Using Counting Sort:", sorted_arr)
