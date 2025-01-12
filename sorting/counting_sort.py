@@ -8,3 +8,5 @@ def counting_sort(arr):
     for i, c in enumerate(count):
         sorted_arr.extend([i] * c)
     return sorted_arr
+
+#example usage
