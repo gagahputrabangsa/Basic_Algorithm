@@ -16,3 +16,7 @@ def bucket_sort(arr):
     sorted_arr = []
     for bucket in buckets:
         sorted_arr.extend(bucket)
+
+    return sorted_arr
+
+# Usage
