@@ -6,3 +6,6 @@ def bucket_sort(arr):
     max_val = max(arr)
     bucket_count = len(arr)
     buckets = [[] for _ in range(bucket_count)]
+    for num in arr:
+        index = (num - min_val) // (max_val - min_val + 1) * bucket_count
+        buckets[int(index)].append(num)
