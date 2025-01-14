@@ -5,3 +5,4 @@ def not_operator(input_value):
 test_values = [True, False]
 for value in test_values:
     result = not_operator(value)
+    print(f"NOT {value} = {result}")
