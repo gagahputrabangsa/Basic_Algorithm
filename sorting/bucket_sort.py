@@ -12,3 +12,7 @@ def bucket_sort(arr):
 
     for i in range(bucket_count):
         buckets[i].sort()
+
+    sorted_arr = []
+    for bucket in buckets:
+        sorted_arr.extend(bucket)
