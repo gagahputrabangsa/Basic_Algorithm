@@ -9,3 +9,6 @@ def bucket_sort(arr):
     for num in arr:
         index = (num - min_val) // (max_val - min_val + 1) * bucket_count
         buckets[int(index)].append(num)
+
+    for i in range(bucket_count):
+        buckets[i].sort()
