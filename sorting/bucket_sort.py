@@ -20,3 +20,5 @@ def bucket_sort(arr):
     return sorted_arr
 
 # Usage
+arr = [0.42, 0.32, 0.23, 0.52, 0.25, 0.47, 0.51]
+sorted_arr = bucket_sort(arr)
