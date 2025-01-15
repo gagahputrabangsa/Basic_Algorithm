@@ -13,11 +13,11 @@ else:
     selisih = angka_pertama - angka_kedua
 print(selisih)
 
-#case 3 : perkalian
+#case 3 : multiply
 perkalian = angka_pertama*angka_kedua 
 print(perkalian)
 
-#case 4: pembagian
+#case 4: division
 pembagian = angka_pertama/angka_kedua
 print(pembagian)
 #case 5: sisa pembagian
