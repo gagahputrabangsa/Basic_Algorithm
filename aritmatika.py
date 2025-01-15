@@ -5,10 +5,10 @@ angka_kedua = int(input('Masukkan bil kedua: '))
 jumlah= angka_pertama+angka_kedua
 print(jumlah)
 #case 2
-#1 angka kedua > angka pertama
+#1 second num > angka pertama
 if angka_kedua > angka_pertama:
     selisih = angka_kedua-angka_pertama
-#2 angka pertama > angka kedua
+#2 angka pertama > second num
 else:
     selisih = angka_pertama - angka_kedua
 print(selisih)
