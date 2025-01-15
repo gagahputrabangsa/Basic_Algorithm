@@ -1,31 +1,31 @@
-angka_pertama = int(input('Masukkan bil pertama: '))
-angka_kedua = int(input('Masukkan bil kedua: '))
+first_num = int(input('Masukkan bil pertama: '))
+second_num = int(input('Masukkan bil kedua: '))
 
 #case 1
-jumlah= angka_pertama+angka_kedua
+jumlah= first_num+second_num
 print(jumlah)
 #case 2
 #1 second num > first num
-if angka_kedua > angka_pertama:
-    selisih = angka_kedua-angka_pertama
+if second_num > first_num:
+    selisih = second_num-first_num
 #2 first num > second num
 else:
-    selisih = angka_pertama - angka_kedua
+    selisih = first_num - second_num
 print(selisih)
 
 #case 3 : multiply
-perkalian = angka_pertama*angka_kedua 
+perkalian = first_num*second_num 
 print(perkalian)
 
 #case 4: division
-pembagian = angka_pertama/angka_kedua
+pembagian = first_num/second_num
 print(pembagian)
 #case 5: modulo
-sisa_bagi = angka_pertama%angka_kedua
+sisa_bagi = first_num%second_num
 print(sisa_bagi)
 
 #case 6: power = n1**n2
-pangkat = angka_pertama**angka_kedua
+pangkat = first_num**second_num
 print(pangkat)
 
 
