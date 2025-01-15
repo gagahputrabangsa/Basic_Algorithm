@@ -24,7 +24,7 @@ print(pembagian)
 sisa_bagi = angka_pertama%angka_kedua
 print(sisa_bagi)
 
-#case 6: perpangkatan = n1**n2
+#case 6: power = n1**n2
 pangkat = angka_pertama**angka_kedua
 print(pangkat)
 
