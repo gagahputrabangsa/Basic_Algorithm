@@ -20,7 +20,7 @@ print(perkalian)
 #case 4: division
 pembagian = angka_pertama/angka_kedua
 print(pembagian)
-#case 5: sisa pembagian
+#case 5: modulo
 sisa_bagi = angka_pertama%angka_kedua
 print(sisa_bagi)
 
