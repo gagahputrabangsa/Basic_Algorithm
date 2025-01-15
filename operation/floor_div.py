@@ -5,3 +5,5 @@ number2 = float(input("Enter the second number: "))
 # Normal division
 division_result = number1 / number2
 print(f"Normal division result: {number1} / {number2} = {division_result}")
+
+# Floor division (integer division)
