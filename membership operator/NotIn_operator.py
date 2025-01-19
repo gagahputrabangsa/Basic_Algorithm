@@ -6,3 +6,4 @@ fruits = ["apple", "banana", "cherry"]
 fruit_to_check = "orange"
 if fruit_to_check not in fruits:
     print(f"{fruit_to_check} is not in the list.")
+else:
