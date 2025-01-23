@@ -6,4 +6,5 @@ while True:
   #apply increment method
   counter += 1
   if keyboard.is_pressed('q'):  # Exit loop on q key
+    print('Thanks!')
     break
