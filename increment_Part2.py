@@ -34,4 +34,8 @@ def main():
             elif choice == 3:
                 print("Exiting the program. Goodbye!")
                 break
-          
+            else:
+                print("Invalid choice. Please select 1, 2, or 3.")
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
+        
