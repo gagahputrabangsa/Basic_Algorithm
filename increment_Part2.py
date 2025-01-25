@@ -21,3 +21,17 @@ def main():
     print(f"Starting number: {current_number}")
     
 
+    while True:
+        display_menu()
+        try:
+            choice = int(input("Enter your choice (1-3): "))
+            if choice == 1:
+                current_number = increment_number(current_number)
+                print(f"Current number after increment: {current_number}")
+            elif choice == 2:
+                current_number = reset_number()
+                print("The number has been reset to 0.")
+            elif choice == 3:
+                print("Exiting the program. Goodbye!")
+                break
+          
