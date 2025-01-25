@@ -1,4 +1,4 @@
-# Extended Increment Program
+
 
 def increment_number(number):
     """Function to increment a number by 1."""
@@ -39,3 +39,6 @@ def main():
         except ValueError:
             print("Invalid input. Please enter a valid number.")
         
+
+if __name__ == "__main__":
+    main()  
