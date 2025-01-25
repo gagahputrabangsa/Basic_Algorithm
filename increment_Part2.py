@@ -15,3 +15,9 @@ def display_menu():
     print("2. Reset the number")
     print("3. Exit")
 
+def main():
+    print("Welcome to the Increment Program!")
+    current_number = 0  # Initial number
+    print(f"Starting number: {current_number}")
+    
+
