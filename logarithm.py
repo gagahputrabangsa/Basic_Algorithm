@@ -17,3 +17,13 @@ def logarithm_calculator():
         if number <= 0:
             print("Error: Logarithm is not defined for zero or negative numbers.")
             return
+        if choice == 1:
+            result = math.log10(number)
+            print(f"The base-10 logarithm of {number} is {result:.4f}")
+        elif choice == 2:
+            result = math.log(number)
+            print(f"The natural logarithm of {number} (base e) is {result:.4f}")
+        elif choice == 3:
+            base = float(input("Enter the base for the logarithm: "))
+            if base <= 0 or base == 1:
+                print("Error: Logarithm base must be greater than 0 and not equal to 1.")
