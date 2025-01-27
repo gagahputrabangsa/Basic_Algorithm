@@ -8,4 +8,4 @@ def decrement(start):
 
 # Example usage
 start_value = int(input("Enter the starting number: "))
-
+decrement(start_value)
