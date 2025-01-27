@@ -27,3 +27,8 @@ def logarithm_calculator():
             base = float(input("Enter the base for the logarithm: "))
             if base <= 0 or base == 1:
                 print("Error: Logarithm base must be greater than 0 and not equal to 1.")
+            else:
+                result = math.log(number, base)
+                print(f"The logarithm of {number} to the base {base} is {result:.4f}")
+    except ValueError:
+        print("Invalid input. Please enter numeric values.")
