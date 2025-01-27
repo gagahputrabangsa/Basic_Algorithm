@@ -6,3 +6,6 @@ def decrement(start):
     print("Done!")
 
 
+# Example usage
+start_value = int(input("Enter the starting number: "))
+
