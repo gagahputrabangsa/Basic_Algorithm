@@ -32,3 +32,5 @@ def logarithm_calculator():
                 print(f"The logarithm of {number} to the base {base} is {result:.4f}")
     except ValueError:
         print("Invalid input. Please enter numeric values.")
+# Run the logarithm calculator
+logarithm_calculator()
