@@ -35,3 +35,6 @@ def main():
         end = int(input("Enter the ending number for the range (should be less than the starting number): "))
         decrement_in_loop(start, end)
     
+
+    else:
+        print("Invalid choice. Please run the program again and select a valid option.")
