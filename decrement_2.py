@@ -18,3 +18,8 @@ def main():
     choice = input("Do you want to decrement a single number (1), a list of numbers (2), or a range (3)? Enter 1, 2, or 3: ")
 
 
+    if choice == "1":
+        num = int(input("Enter a number to decrement: "))
+        result = decrement_number(num)
+        print(f"The result after decrementing {num} is: {result}")
+    
