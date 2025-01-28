@@ -11,5 +11,10 @@ def decrement_in_loop(start, end):
     for number in range(start, end, -1):
         print(f"Decrementing: {number}")
 
+def main():
+    print("Welcome to the Decrement Program!")
+    
+    # Get user input for a single number
+    choice = input("Do you want to decrement a single number (1), a list of numbers (2), or a range (3)? Enter 1, 2, or 3: ")
 
 
