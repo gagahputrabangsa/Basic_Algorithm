@@ -29,3 +29,9 @@ def main():
         results = decrement_list(numbers)
         print(f"The result after decrementing each number in {numbers} is: {results}")
     
+
+    elif choice == "3":
+        start = int(input("Enter the starting number for the range: "))
+        end = int(input("Enter the ending number for the range (should be less than the starting number): "))
+        decrement_in_loop(start, end)
+    
