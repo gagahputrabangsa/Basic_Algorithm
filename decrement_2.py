@@ -23,3 +23,9 @@ def main():
         result = decrement_number(num)
         print(f"The result after decrementing {num} is: {result}")
     
+
+    elif choice == "2":
+        numbers = list(map(int, input("Enter a list of numbers to decrement (comma separated): ").split(',')))
+        results = decrement_list(numbers)
+        print(f"The result after decrementing each number in {numbers} is: {results}")
+    
