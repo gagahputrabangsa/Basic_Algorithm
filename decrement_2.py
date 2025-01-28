@@ -38,3 +38,6 @@ def main():
 
     else:
         print("Invalid choice. Please run the program again and select a valid option.")
+
+if __name__ == "__main__":
+    main()
