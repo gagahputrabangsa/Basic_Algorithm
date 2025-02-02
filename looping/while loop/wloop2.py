@@ -5,6 +5,6 @@ while count <= 10:
       print("Count:", count)
     count += 1  # Increment the counter
 
-
+print("Loop finished!")
 
 
