@@ -30,3 +30,6 @@ while not guessed_correctly:
         guessed_correctly = True
         print(f"Congratulations! You've guessed the correct number {secret_number} in {attempts} attempts.")
 
+# Final message
+print("Thank you for playing the Number Guessing Game!")
+
