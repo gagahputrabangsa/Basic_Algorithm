@@ -26,3 +26,7 @@ while not guessed_correctly:
         print("Too low! Try again.")
     elif user_guess > secret_number:
         print("Too high! Try again.")
+        else:
+        guessed_correctly = True
+        print(f"Congratulations! You've guessed the correct number {secret_number} in {attempts} attempts.")
+
