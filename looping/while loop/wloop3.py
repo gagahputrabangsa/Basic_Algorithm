@@ -21,3 +21,8 @@ while not guessed_correctly:
     # Ask the user to guess the number
     user_guess = int(input(f"Attempt {attempts}: Guess the number between {lower_bound} and {upper_bound}: "))
     
+    # Check if the guess is correct, too low, or too high
+    if user_guess < secret_number:
+        print("Too low! Try again.")
+    elif user_guess > secret_number:
+        print("Too high! Try again.")
