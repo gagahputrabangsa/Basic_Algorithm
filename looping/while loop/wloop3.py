@@ -13,3 +13,11 @@ secret_number = random.randint(lower_bound, upper_bound)
 attempts = 0
 guessed_correctly = False
 
+# Start the while loop for the guessing game
+while not guessed_correctly:
+    # Increment the number of attempts
+    attempts += 1
+    
+    # Ask the user to guess the number
+    user_guess = int(input(f"Attempt {attempts}: Guess the number between {lower_bound} and {upper_bound}: "))
+    
