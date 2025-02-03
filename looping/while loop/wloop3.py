@@ -9,3 +9,7 @@ upper_bound = int(input("Enter the upper bound for the number range: "))
 import random
 secret_number = random.randint(lower_bound, upper_bound)
 
+# Initialize the number of attempts and a flag for the correct guess
+attempts = 0
+guessed_correctly = False
+
