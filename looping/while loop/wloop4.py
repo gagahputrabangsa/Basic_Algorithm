@@ -8,5 +8,10 @@ def countdown(n):
     print(n)
     n -= 1
     time.sleep(1)
+def print_triangle_pattern(height):
+  """
+  This function prints a right-angled triangle pattern with the specified height.
+  """
+  i = 1
 
 
