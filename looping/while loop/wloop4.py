@@ -35,3 +35,6 @@ def main():
   print_triangle_pattern(7)
 
   print("\nFinished.")
+
+if __name__ == "__main__":
+  main()
