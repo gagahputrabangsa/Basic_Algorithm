@@ -22,3 +22,10 @@ def print_triangle_pattern(height):
     i += 1
 
 
+
+def main():
+  """
+  The main function of the program.
+  """
+  print("Starting countdown from 10:")
+  countdown(10)
