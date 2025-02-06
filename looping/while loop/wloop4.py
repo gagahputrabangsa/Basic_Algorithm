@@ -13,5 +13,12 @@ def print_triangle_pattern(height):
   This function prints a right-angled triangle pattern with the specified height.
   """
   i = 1
+  while i <= height:
+    j = 1
+    while j <= i:
+      print("*", end="")
+      j += 1
+    print()
+    i += 1
 
 
