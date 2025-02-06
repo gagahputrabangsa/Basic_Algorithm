@@ -29,3 +29,9 @@ def main():
   """
   print("Starting countdown from 10:")
   countdown(10)
+
+
+  print("\nPrinting a right-angled triangle pattern:")
+  print_triangle_pattern(7)
+
+  print("\nFinished.")
