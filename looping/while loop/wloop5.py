@@ -33,3 +33,6 @@ while True:
    elif choice == '4':
         print("Exiting... Thank you for using our banking system!")
         break
+
+    else:
+        print("Invalid choice. Please enter a number between 1 and 4.")
