@@ -28,3 +28,5 @@ while True:
                 print(f"Successfully withdrew ${amount}. Remaining balance: ${balance}")
             else:
                 print("Insufficient balance.")
+        else:
+            print("Invalid amount. Please enter a positive number.")
