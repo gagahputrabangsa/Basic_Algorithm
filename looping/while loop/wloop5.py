@@ -30,3 +30,6 @@ while True:
                 print("Insufficient balance.")
         else:
             print("Invalid amount. Please enter a positive number.")
+   elif choice == '4':
+        print("Exiting... Thank you for using our banking system!")
+        break
