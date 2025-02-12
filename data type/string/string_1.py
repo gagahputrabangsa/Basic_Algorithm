@@ -13,4 +13,8 @@ def main():
     # String length
     print("Length of message:", len(message))
     
+    # String slicing
+    print("First five characters:", message[:5])
+    print("Last five characters:", message[-5:])
+    
 
