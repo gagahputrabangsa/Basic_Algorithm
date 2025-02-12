@@ -17,4 +17,9 @@ def main():
     print("First five characters:", message[:5])
     print("Last five characters:", message[-5:])
     
+    # String methods
+    print("Uppercase:", message.upper())
+    print("Lowercase:", message.lower())
+    print("Replaced word:", message.replace("Python", "Programming"))
+    
 
