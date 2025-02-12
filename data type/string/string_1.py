@@ -23,3 +23,15 @@ def main():
     print("Replaced word:", message.replace("Python", "Programming"))
     
 
+    # User input as string
+    user_input = input("Enter your favorite programming language: ")
+    print("You entered:", user_input)
+    
+    # Checking string membership
+    if "Python" in message:
+        print("'Python' is found in the message!")
+    else:
+        print("'Python' is not found in the message.")
+
+if __name__ == "__main__":
+    main()
