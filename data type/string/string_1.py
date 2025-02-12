@@ -10,3 +10,7 @@ def main():
     greeting = "Hello, " + name + "!"
     print("Concatenated string:", greeting)
     
+    # String length
+    print("Length of message:", len(message))
+    
+
