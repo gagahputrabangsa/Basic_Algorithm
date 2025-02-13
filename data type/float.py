@@ -27,3 +27,7 @@ c = 10   # Integer
 float_c = float(c)  # Convert int to float
 int_a = int(a)  # Convert float to int (truncates the decimal part)
 
+print("\nType Conversions:")
+print(f"Integer {c} converted to float: {float_c}")
+print(f"Float {a} converted to integer: {int_a}")
+
