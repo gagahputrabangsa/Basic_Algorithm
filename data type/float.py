@@ -31,3 +31,12 @@ print("\nType Conversions:")
 print(f"Integer {c} converted to float: {float_c}")
 print(f"Float {a} converted to integer: {int_a}")
 
+# Using round() function to control decimal places
+rounded_value = round(3.14159, 2)  # Round to 2 decimal places
+print(f"\nRounded Value of Pi: {rounded_value}")
+
+# Using format() method for better decimal control
+formatted_value = "{:.3f}".format(3.14159)  # Format to 3 decimal places
+print(f"Formatted Pi to 3 decimal places: {formatted_value}")
+
+
