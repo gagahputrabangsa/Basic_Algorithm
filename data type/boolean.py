@@ -26,3 +26,11 @@ if daylight:
 else:
     print("It's dark outside!")
 
+# Boolean operators
+is_warm = True
+print("Is it both sunny and warm?", is_sunny and is_warm)
+print("Is it either sunny or warm?", is_sunny or is_warm)
+print("Is it not sunny?", not is_sunny)
+
+print("\nBoolean values are essential for making decisions in programming!")
+
