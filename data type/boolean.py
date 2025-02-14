@@ -18,4 +18,11 @@ if is_raining:
 else:
     print("Enjoy the clear weather!")
 
+# Getting user input and converting it to Boolean
+daylight = input("Is it daylight? (yes/no): ").strip().lower() == "yes"
+
+if daylight:
+    print("It's bright outside!")
+else:
+    print("It's dark outside!")
 
