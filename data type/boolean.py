@@ -13,3 +13,9 @@ print("5 > 3:", 5 > 3)  # True
 print("10 == 20:", 10 == 20)  # False
 
 # Using Boolean in conditions
+if is_raining:
+    print("Don't forget to take an umbrella!")
+else:
+    print("Enjoy the clear weather!")
+
+
