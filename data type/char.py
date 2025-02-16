@@ -13,3 +13,7 @@ print("Character B:", char_b)
 print("ASCII value of A:", ord(char_a))
 print("ASCII value of B:", ord(char_b))
 
+# Getting character from ASCII value
+print("Character for ASCII 97:", chr(97))
+print("Character for ASCII 65:", chr(65))
+
