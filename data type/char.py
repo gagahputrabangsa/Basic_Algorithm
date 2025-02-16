@@ -42,3 +42,4 @@ char_d = 'D'
 combined = char_c + char_d
 print("Concatenated characters:", combined)
 
+print("\nCharacters are fundamental in handling text-based data in programming!")
