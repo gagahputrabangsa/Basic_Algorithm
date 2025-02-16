@@ -9,3 +9,7 @@ print("Character A:", char_a)
 print("Character B:", char_b)
 
 
+# Getting ASCII value of a character
+print("ASCII value of A:", ord(char_a))
+print("ASCII value of B:", ord(char_b))
+
