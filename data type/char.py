@@ -28,3 +28,11 @@ if char_b.islower():
 else:
     print(f"{char_b} is an uppercase letter.")
 
+# Getting user input and checking if it's a letter
+user_char = input("Enter a single character: ")
+if len(user_char) == 1 and user_char.isalpha():
+    print(f"You entered the letter: {user_char}")
+    print(f"Its ASCII value is: {ord(user_char)}")
+else:
+    print("Invalid input! Please enter a single letter.")
+
