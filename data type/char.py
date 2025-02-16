@@ -36,3 +36,9 @@ if len(user_char) == 1 and user_char.isalpha():
 else:
     print("Invalid input! Please enter a single letter.")
 
+# Concatenating characters
+char_c = 'C'
+char_d = 'D'
+combined = char_c + char_d
+print("Concatenated characters:", combined)
+
