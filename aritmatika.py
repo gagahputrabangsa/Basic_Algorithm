@@ -9,6 +9,11 @@ print(jumlah)
 if second_num > first_num:
     selisih = second_num-first_num
 #2 first num > second num
+else:
+    selisih = first_num - second_num
+print(selisih)
+
+#case 3 : multiply
 
 
 
