@@ -18,6 +18,9 @@ perkalian = first_num*second_num
 print(perkalian)
 
 #case 4: division
+pembagian = first_num/second_num
+print(pembagian)
+#case 5: modulo
 
 
 
