@@ -25,6 +25,8 @@ sisa_bagi = first_num%second_num
 print(sisa_bagi)
 
 #case 6: power = n1**n2
+pangkat = first_num**second_num
+print(pangkat)
 
 
 
