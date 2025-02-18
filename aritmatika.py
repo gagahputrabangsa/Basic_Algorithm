@@ -14,6 +14,10 @@ else:
 print(selisih)
 
 #case 3 : multiply
+perkalian = first_num*second_num 
+print(perkalian)
+
+#case 4: division
 
 
 
