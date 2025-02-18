@@ -21,6 +21,10 @@ print(perkalian)
 pembagian = first_num/second_num
 print(pembagian)
 #case 5: modulo
+sisa_bagi = first_num%second_num
+print(sisa_bagi)
+
+#case 6: power = n1**n2
 
 
 
